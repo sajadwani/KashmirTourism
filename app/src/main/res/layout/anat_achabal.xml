@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:text="ACHABAL"
+            android:layout_gravity="center"
+            />
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/ach"
+            />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Achabal is an important tourist place about 8 kilometres away from Anantnag. The place is famous and attractive due to an ancient spring surrounded by a garden terraced and developed by the Mughals.Perhaps the most beautiful of springs is Achabal, which gushes out of the Sosanwar hill, and was once enlisted by the emperor Jehangir in the service of beauty and pleasure.It is said that the Breng river which disappears at Dewalgam in the fissures of the limestone is the real source of the Achabal spring.. The place has got some historical background also. The upper portion of the garden is called 'Bag-e-Begum Abad' developed by Malika Noor Jehan Begum in 1620 AD and renowned as Sahib Abad in which there was a Hamam (treasure of water) getting heat from a logical lamp (Tosng).
+Cascades and fountains erected by Mughal Emperors enhance the beauty of the spot."
+            android:textSize="25dp"
+            android:background="@drawable/bluebkg"
+            android:textColor="#ffffff"
+
+
+            />
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/air">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="By air"
+                android:textColor="#ff0000"
+                android:textStyle="italic"
+                android:gravity="center"
+                android:textSize="30dp"
+
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="
+  To fly into Kashmir, take the Srinagar Airport (15 km away),
+  which is well connected to prime Indian cities. Air India,
+  GoAir, IndiGo and Jet Airways operate regular flights for
+  Delhi,  Goa, Jammu, Leh Mumbai and Bangalore.
+  After reaching the airport, visitors can hire taxis to reach
+  various cities and towns of Kashmir."
+                android:textColor="#ffffff"
+                />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/airb"
+                android:background="@drawable/rbtn"
+                android:text="click to book now"
+                android:textSize="26dp"
+                android:layout_marginTop="20dp"
+
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="By Train"
+                android:textColor="#ff0000"
+                android:textStyle="italic"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:layout_marginTop="20dp"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="
+   Jammu Tawi Railway Station, situated at a distance of
+   about 330 km, is the nearest railhead serving the beautiful
+   valley of Kashmir.New Delhi-Jammu Tawi Rajdhani Express
+   ,Jammu Mail and Jammu Tawi Express are some of the
+    prominent trains operating from Delhi. From outside the
+    railway station, one can hire private taxis or take state or
+    private buses to reach various places in Kashmir."
+                android:textColor="#ffffff"
+                />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/train"
+                android:background="@drawable/rbtn"
+                android:text="click to book now"
+                android:textSize="26dp"
+                android:layout_marginTop="20dp"
+
+                />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="By Bus"
+                android:textColor="#ff0000"
+                android:textStyle="italic"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:layout_marginTop="20dp"
+                />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="
+   Jammu Tawi Railway Station, situated at a distance of
+   about 330 km, is the nearest railhead serving the beautiful
+   valley of Kashmir.New Delhi-Jammu Tawi Rajdhani Express
+   ,Jammu Mail and Jammu Tawi Express are some of the
+    prominent trains operating from Delhi. From outside the
+    railway station, one can hire private taxis or take state or
+    private buses to reach various places in Kashmir."
+                android:textColor="#ffffff"
+                />
+
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/road"
+                android:background="@drawable/rbtn"
+                android:text="click to book now"
+                android:textSize="26dp"
+
+                />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

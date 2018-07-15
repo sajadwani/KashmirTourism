@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:text="BABA RESHI SHRINE"
+            android:layout_gravity="center"
+            />
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/babarshi"
+            />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="The mausoleum of Baba Payamuddin (Pam Din) is dubbed as Baba Reshi. Located in Baramullah district in Rambodh Village, the shrine is revered highly by Muslims and Hindus alike. Anointed by Baba Zainuddin Rishi. A Daan (fire place) was constructed by the saint in the village, which is reckoned to fulfill the wishes of people. The shrine of Baba Reshi has become a popular Gulmarg tourist place to visit and is thronged by visitors throughout the year. Jammu and Kashmir tourism department also recognizes this holy shrine as a vital attraction of the valley of Kashmir."
+            android:textSize="25dp"
+            android:background="@drawable/bluebkg"
+            android:textColor="#ffffff"
+
+
+            />
+
+
+
+    </LinearLayout>
+</ScrollView>

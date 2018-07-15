@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:text="CHASHME SHAHI"
+            android:layout_gravity="center"
+            />
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cheshmi"
+            />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=" Chashme Shahi is the smallest of the three Mughal Gardens in Srinagar but not less beautiful or charming. Chasme Shahi is literally translated as ‘Royal Spring’. The cool natural spring and fresh water gushing out from the mountain is a pure joy to be hold. "
+            android:textSize="25dp"
+            android:background="@drawable/bluebkg"
+            android:textColor="#ffffff"
+
+
+            />
+
+
+
+    </LinearLayout>
+</ScrollView>

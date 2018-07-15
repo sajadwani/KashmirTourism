@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:text="KOUSARNAG"
+            android:layout_gravity="center"
+            />
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/kous"
+            />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="The Konsarnag Lake is situated in the Pir Panjal range at a height of 4000 meters above sea level to the south of Shopian. It is about 5 Kms. long and 3 Kms. wide and is the source of the river Vishav. It is at a distance of 34 Kms. from Shopian. In circumference, is shaped like a human foot and is believed by the Hindus to be the foot of Vishnu and is so called Vishnu Pad also. Its blue, rippling water reflects the lofty snowy peaks surrounding the spring."
+            android:textSize="25dp"
+            android:background="@drawable/bluebkg"
+            android:textColor="#ffffff"
+
+
+            />
+
+
+
+
+    </LinearLayout>
+</ScrollView>

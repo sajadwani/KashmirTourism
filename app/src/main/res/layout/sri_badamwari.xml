@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:text="BADAMWARI PARK"
+            android:layout_gravity="center"
+            />
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/badam"
+            />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="  Badamwari Garden is better than other gardens in srinagar. It is named after Almond trees were planted in the garden by then ruling king. It has nice Amphitheater too. It is well managed by JK bank and nice to visit. As almond branches laden with purple white flowers spread their faint fragrance, Kashmiris are trying to relive history in this city’s Badam Wari or almond garden."
+            android:textSize="25dp"
+            android:background="@drawable/bluebkg"
+            android:textColor="#ffffff"
+
+
+            />
+
+
+
+    </LinearLayout>
+</ScrollView>

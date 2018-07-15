@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:text="PAHALGAM"
+            android:layout_gravity="center"
+            />
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/pah"
+            />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Pahalgam skirts Lidder river and torrential flow of water in Lidder river enriches the awesome beauty of the Valley.Once a great tourist  and favourite place for shooting of Bollywood films is perhaps the best health resort in the country. Around Pahalgam are many places of interest, and because the resort is set between fairly steep hills, it is worth hiring a pony rather than walking. Pony fares are posted at prominent locations.
+The most beautiful of these is the huge, undulating meadow of Baisaran, surrounded by thickly wooded forests of pine. Hajan, on the way to Chandanwari, is an idyllic spot for a picnic. Filmgoers will recognize it instantly as it has been the location of several movie scenes.
+Pahalgam has within it no fewer than eight tiny villages, one of which is Mamal. There is a Shiva temple here, generally considered to be Kashmir's oldest existing temple, dating to the 5th century. "
+            android:textSize="25dp"
+            android:background="@drawable/bluebkg"
+            android:textColor="#ffffff"
+
+
+            />
+
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:text="NIGEEN LAKE"
+            android:layout_gravity="center"
+            />
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/nigeen"
+            />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Nigeen Lake though sometimes referred to as a separate lake, is actually part of Dal Lake, being linked through a causeway which permits only bikers and walkers to enter the lake precincts. The caseway carries the water supply pipeline to the Srinagar city in the east. The lake is bounded by the Shankaracharya hill (Takht-e-Suleiman) on the south and Hari Parbat on the west and is located at the foot of the Zabarwan hills."
+            android:textSize="25dp"
+            android:background="@drawable/bluebkg"
+            android:textColor="#ffffff"
+
+
+            />
+
+
+
+    </LinearLayout>
+</ScrollView>

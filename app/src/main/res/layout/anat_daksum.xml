@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:text="DAKSUM"
+            android:layout_gravity="center"
+            />
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/dak"
+            />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="350dp"
+            android:text="Daksum is Located in the dense forests, this scenic spot falls on the Anantnag-Symthan-Kishtwar road. It is a forest retreat girdled by mountains. The surrounding forests are famous for fauna and flora.This famous tourist sport is in the south east of Anantnag town and is about a distance of 40 kilometers from district headquarter."
+            android:textSize="25dp"
+            android:background="@drawable/bluebkg"
+            android:textColor="#ffffff"
+
+
+            />
+
+
+
+    </LinearLayout>
+</ScrollView>

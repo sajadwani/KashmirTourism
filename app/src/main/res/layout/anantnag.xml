@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    >
+
+
+
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="fill_parent"
+        android:layout_height="235dp"
+        android:id="@+id/viewpager"
+
+        />
+
+    <LinearLayout
+
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/grassbkg"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="While on a trip to Anantnag, tourists can visit the Martand Sun Temple that is located at a distance of 9 km from the destination. This temple was constructed by King Lalitaditya in honour of Lord Sun. The architecture of the temple depicts the artistic excellence of the Kashmiri Hindus. At present, the Martand Sun temple is in ruined state nevertheless, tourist can sight the remains of the temple standing amidst the snow capped mountains." />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Move the images above to see the palaces in anatnag.Palace to Travel in Anantnag."
+            android:textColor="#000"
+            />
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/anantnaglist"
+            android:contextClickable="true"
+            >
+
+        </ListView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

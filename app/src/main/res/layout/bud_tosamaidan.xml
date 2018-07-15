@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:text="TOSAMAIDAN"
+            android:layout_gravity="center"
+            />
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/tosa"
+            />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="TOSAMAIDAN is not only famous as a pasture but also for its historical bacKground. Bounded by dense forests, it is situated about 10 Kms from Khag in the mountains of the Himalayan range. . After crossing the upper mountain reaches of Drang, Zakhora and other small villages, one reaches the pasture of Tosamaidan. It is one of those pastures which the shepherds of other countries also used to visit in ancient times. The Mughals used to go to Poonch using this route. It is said that they had constructed a seven-storeyed building -Dam Dam - here. The Basmai Gali (13,000 ft) is the pass which leads into Tosamaidan. Another pass - Poonch Gali - on its right side leads to the valley of Poonch. This pass was deemed to be the safest, easiest, and nearest to reach Punjab in in ancient times."
+            android:textSize="25dp"
+            android:background="@drawable/bluebkg"
+            android:textColor="#ffffff"
+
+
+            />
+
+
+
+    </LinearLayout>
+</ScrollView>

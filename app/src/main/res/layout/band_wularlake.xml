@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:text="WULAR LAKE"
+            android:layout_gravity="center"
+            />
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="350dp"
+            android:src="@drawable/wul"
+            />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="450dp"
+            android:text="Wular Lake is one of the largest fresh water lakes in Asia. The lake  was formed as a result of tectonic activity and is fed by the Jhelum River. The lake's size varies seasonally from 12 to 100 square miles.The origin may also be attributed to a Kashmiri word 'Wul', which means a gap or a fissure, appellation that must have come also during this period. The word Wul {Gap or fissure}, is also indicator of its origin to a fissure or gap created. "
+            android:textSize="25dp"
+            android:background="@drawable/bluebkg"
+            android:textColor="#ffffff"
+
+
+            />
+
+
+
+    </LinearLayout>
+</ScrollView>

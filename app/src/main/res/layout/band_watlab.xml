@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:text="WATLAB"
+            android:layout_gravity="center"
+            />
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/wat"
+            />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="400dp"
+            android:text="Watlab in Kashmir provides you an attractive watch on the Wular Lake.Watlab is  Forest relaxation home situated among attractive apple orchards.The picturesque villages edging about the lake additional improve the surroundings. Also including a contact of coloration towards the landscape, would be the fields of paddy close by.Watlab in Kashmir is another garden in Kashmir near Wular Lake."
+            android:textSize="25dp"
+            android:background="@drawable/bluebkg"
+            android:textColor="#ffffff"
+
+
+            />
+
+
+
+    </LinearLayout>
+</ScrollView>

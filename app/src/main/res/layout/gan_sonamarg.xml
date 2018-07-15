@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:text="SONAMARG"
+            android:layout_gravity="center"
+            />
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/sona"
+            />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Sonamarg is a hill station.It had historical significance and was a gateway on ancient Silk Road along with Gilgit connecting Kashmir with China and other Gulf countries.The climate of Sonamarg is very bracing. The climate of Sonamarg is very bracing; but the rainfall is frequent though not heavy, except for two or three days at a time in July and August with fine spell in between. From Sonamarg, trekking routes lead to the Himalayan lakes of Vishansar Lake, Krishansar Lake, Gangabal Lake and Gadsar Lake, stocked with Snowtrout and Brown trout and Satsar, glacier-fed and surrounded by banks of alpine flowers.
+A close by excursion is to Baltal, 15 km East of Sonamarg. This little valley lies at the foot of the Zojila, only a day's journey away from the sacred cave of Amarnath is a base camp for Amarnath yatra."
+            android:textSize="25dp"
+            android:background="@drawable/bluebkg"
+            android:textColor="#ffffff"
+
+
+            />
+
+
+    </LinearLayout>
+</ScrollView>
