@@ -3,6 +3,7 @@ package com.example.sajadwani.kashmirtourism;
 import android.app.Activity;
 import android.content.Intent;
 import android.media.MediaPlayer;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -16,7 +17,7 @@ public class Second extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.second);
-        cate=(Button)findViewById(R.id.cat);
+      /**  cate=(Button)findViewById(R.id.cat);
         cate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -26,7 +27,7 @@ public class Second extends Activity {
 
 
             }
-        });
+        });*/
 
         all=(Button)findViewById(R.id.all);
         all.setOnClickListener(new View.OnClickListener() {
@@ -37,6 +38,8 @@ public class Second extends Activity {
                 startActivity(lst);
             }
         });
+
+
 
 
 

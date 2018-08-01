@@ -3,9 +3,12 @@
     package="com.example.sajadwani.kashmirtourism">
 
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
 
     <application
         android:allowBackup="true"
@@ -13,79 +16,74 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme"
-        >
-
+        android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
+            android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="portrait"
-            android:exported="true">
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Reach"></activity>
-        <activity android:name=".Hotels"></activity>
-        <activity android:name=".Second"></activity>
-        <activity android:name=".Sort"></activity>
-        <activity android:name=".ListV"></activity>
-        <activity android:name=".anantnag.Anantnag"></activity>
-        <activity android:name=".bandipora.Bandipora"></activity>
-        <activity android:name=".baramulla.Baramulla"></activity>
-        <activity android:name=".budgam.Budgam"></activity>
-        <activity android:name=".ganderbal.Ganderbal"></activity>
-        <activity android:name=".kulgam.Kulgam"></activity>
-        <activity android:name=".kupwara.Kupwara"></activity>
-        <activity android:name=".shopian.Shopian"></activity>
-        <activity android:name=".srinagar.Srinagar"></activity>
-        <activity android:name=".anantnag.Achabal"></activity>
-        <activity android:name=".anantnag.Daksum"></activity>
-        <activity android:name=".anantnag.Kokarnag"></activity>
-        <activity android:name=".anantnag.Mattantemple"></activity>
-        <activity android:name=".anantnag.Pahalgam"></activity>
-        <activity android:name=".bandipora.BabaShakoorDinShrine"></activity>
-        <activity android:name=".bandipora.Watlab"></activity>
-        <activity android:name=".bandipora.WularLake"></activity>
-        <activity android:name=".baramulla.Babareshishrine"></activity>
-        <activity android:name=".baramulla.EcoPark"></activity>
-        <activity android:name=".baramulla.Gulmarg"></activity>
-        <activity android:name=".baramulla.MaharaniTemple"></activity>
-        <activity android:name=".baramulla.Tangmarg"></activity>
-        <activity android:name=".budgam.CharariSharief"></activity>
-        <activity android:name=".budgam.DoodhPathri"></activity>
-        <activity android:name=".budgam.Tosamaidan"></activity>
-        <activity android:name=".budgam.Yusmarg"></activity>
-        <activity android:name=".kulgam.Aharbal"></activity>
-        <activity android:name=".ganderbal.Gangabal"></activity>
-        <activity android:name=".ganderbal.Manasbal"></activity>
-        <activity android:name=".ganderbal.Sonamarg"></activity>
-        <activity android:name=".kupwara.Bangus"></activity>
-        <activity android:name=".kupwara.Lolab"></activity>
-        <activity android:name=".shopian.Herpora"></activity>
-        <activity android:name=".shopian.Kousarnag"></activity>
-        <activity android:name=".srinagar.Badamwari"></activity>
-        <activity android:name=".srinagar.Chashme"></activity>
-        <activity android:name=".srinagar.Chatti"></activity>
-        <activity android:name=".srinagar.Dallake"></activity>
-        <activity android:name=".srinagar.Dastagir"></activity>
-        <activity android:name=".srinagar.HariParbat"></activity>
-        <activity android:name=".srinagar.Hazratbal"></activity>
-        <activity android:name=".srinagar.Jamia"></activity>
-        <activity android:name=".srinagar.Khanqah"></activity>
-        <activity android:name=".srinagar.Mukhdoom"></activity>
-        <activity android:name=".srinagar.Nigeen"></activity>
-        <activity android:name=".srinagar.Nishat"></activity>
-        <activity android:name=".srinagar.Pari"></activity>
-        <activity android:name=".srinagar.Pathar"></activity>
-        <activity android:name=".srinagar.Shalimar"></activity>
-        <activity android:name=".srinagar.Shankar"></activity>
+        <activity android:name=".Reach" />
+        <activity android:name=".Hotels" />
+        <activity android:name=".Second" />
+        <activity android:name=".Sort" />
+        <activity android:name=".ListV" />
+        <activity android:name=".anantnag.Anantnag" />
+        <activity android:name=".bandipora.Bandipora" />
+        <activity android:name=".baramulla.Baramulla" />
+        <activity android:name=".budgam.Budgam" />
+        <activity android:name=".ganderbal.Ganderbal" />
+        <activity android:name=".kulgam.Kulgam" />
+        <activity android:name=".kupwara.Kupwara" />
+        <activity android:name=".shopian.Shopian" />
+        <activity android:name=".srinagar.Srinagar" />
+        <activity android:name=".anantnag.Achabal" />
+        <activity android:name=".anantnag.Daksum" />
+        <activity android:name=".anantnag.Kokarnag" />
+        <activity android:name=".anantnag.Mattantemple" />
+        <activity android:name=".anantnag.Pahalgam" />
+        <activity android:name=".bandipora.BabaShakoorDinShrine" />
+        <activity android:name=".bandipora.Watlab" />
+        <activity android:name=".bandipora.WularLake" />
+        <activity android:name=".baramulla.Babareshishrine" />
+        <activity android:name=".baramulla.EcoPark" />
+        <activity android:name=".baramulla.Gulmarg" />
+        <activity android:name=".baramulla.MaharaniTemple" />
+        <activity android:name=".baramulla.Tangmarg" />
+        <activity android:name=".budgam.CharariSharief" />
+        <activity android:name=".budgam.DoodhPathri" />
+        <activity android:name=".budgam.Tosamaidan" />
+        <activity android:name=".budgam.Yusmarg" />
+        <activity android:name=".kulgam.Aharbal" />
+        <activity android:name=".ganderbal.Gangabal" />
+        <activity android:name=".ganderbal.Manasbal" />
+        <activity android:name=".ganderbal.Sonamarg" />
+        <activity android:name=".kupwara.Bangus" />
+        <activity android:name=".kupwara.Lolab" />
+        <activity android:name=".shopian.Herpora" />
+        <activity android:name=".shopian.Kousarnag" />
+        <activity android:name=".srinagar.Badamwari" />
+        <activity android:name=".srinagar.Chashme" />
+        <activity android:name=".srinagar.Chatti" />
+        <activity android:name=".srinagar.Dallake" />
+        <activity android:name=".srinagar.Dastagir" />
+        <activity android:name=".srinagar.HariParbat" />
+        <activity android:name=".srinagar.Hazratbal" />
+        <activity android:name=".srinagar.Jamia" />
+        <activity android:name=".srinagar.Khanqah" />
+        <activity android:name=".srinagar.Mukhdoom" />
+        <activity android:name=".srinagar.Nigeen" />
+        <activity android:name=".srinagar.Nishat" />
+        <activity android:name=".srinagar.Pari" />
+        <activity android:name=".srinagar.Pathar" />
+        <activity android:name=".srinagar.Shalimar" />
+        <activity android:name=".srinagar.Shankar" />
     </application>
-    <uses-feature
-        android:glEsVersion="0x00020000"
-        android:required="true"/>
 
 </manifest>

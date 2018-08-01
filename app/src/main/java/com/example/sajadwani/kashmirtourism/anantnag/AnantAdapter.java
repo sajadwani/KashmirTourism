@@ -1,6 +1,5 @@
 package com.example.sajadwani.kashmirtourism.anantnag;
 
-import android.app.Activity;
 import android.content.Context;
 import android.support.v4.view.PagerAdapter;
 import android.view.LayoutInflater;
@@ -29,12 +28,12 @@ public class AnantAdapter extends PagerAdapter {
         return img.length;
     }
 
-    @Override
+
     public boolean isViewFromObject(View view, Object object) {
         return (view==object);
     }
 
-    @Override
+
     public Object instantiateItem(ViewGroup container, int position) {
         inf=(LayoutInflater)ctx.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View v=inf.inflate(R.layout.swipe,container,false);
@@ -46,7 +45,6 @@ public class AnantAdapter extends PagerAdapter {
         return v;
     }
 
-    @Override
     public void destroyItem(ViewGroup container, int position, Object object) {
 
     }

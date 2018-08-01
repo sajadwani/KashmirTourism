@@ -4,19 +4,19 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_camera"
-            android:icon="@drawable/hot"
+            android:icon="@drawable/hotel_black"
             android:title="Hotels" />
         <item
             android:id="@+id/nav_gallery"
-            android:icon="@drawable/atm"
-            android:title="Nearest Atms" />
+            android:icon="@drawable/car_black"
+            android:title="Best Time To Visit" />
         <item
             android:id="@+id/nav_slideshow"
-            android:icon="@drawable/fli"
+            android:icon="@drawable/airplanemode"
             android:title="How to reach" />
         <item
             android:id="@+id/nav_manage"
-            android:icon="@drawable/art"
+            android:icon="@drawable/art_track"
             android:title="Kashmiri Art" />
     </group>
 

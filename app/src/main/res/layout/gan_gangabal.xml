@@ -1,30 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#a8a8a8"
     android:layout_height="match_parent">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         >
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="40dp"
-            android:text="GANGABAL LAKE"
-            android:layout_gravity="center"
-            />
+
         <ImageView
-            android:layout_width="fill_parent"
-            android:layout_height="250dp"
+            android:layout_width="match_parent"
+            android:layout_height="235dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:src="@drawable/gang"
             />
         <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Gangbal Lake, is a lake situated at the foothills of Mount Haramukh (the highest mountain peak in the vicinity of Kashmir valley.The lake has a maximum length of 2.5 kilometres (1.6 mi) and maximum width of 1 kilometre (0.62 mi). It is fed by precipitation, glaciers and springs. The lake water outflows to a nearby small lake (Nundakol)[18] and then via Wangath nallah[19] to Sindh River[20] The trout fishes are present in the lake.[21] Gangabal lake is approached from Srinagar 45 kilometres (28 mi) by road via Ganderbal up to Naranag[22] and then a 15 kilometres (9.3 mi) track upslope. "
-            android:textSize="25dp"
-            android:background="@drawable/bluebkg"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_horizontal"
             android:textColor="#ffffff"
 
 

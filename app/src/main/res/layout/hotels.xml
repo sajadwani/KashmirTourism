@@ -4,34 +4,26 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:background="@drawable/bluebkg"
+        android:background="@drawable/spppp"
         >
         <TextView
-            android:layout_width="185dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
             android:textSize="40dp"
-            android:text="     Hotel"
+
             android:textColor="#ffffff"
-            android:background="@drawable/txtbkg"
+            android:background="@drawable/hotttttt"
             android:layout_gravity="center"
             />
         <ImageView
             android:layout_width="fill_parent"
             android:layout_height="260dp"
-            android:src="@drawable/hotl"
+            android:src="@drawable/ho"
             />
-        <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="50dp"
-            android:textSize="25dp"
-            android:text="   Choose A Place U Want to Stay"
-            android:textColor="#ffffff"
-            android:background="#000000"
-            android:layout_gravity="center"
-            />
+
 
 
         />
@@ -39,66 +31,66 @@
         <Button
             android:layout_width="fill_parent"
             android:layout_height="60dp"
-            android:text="Srinagar"
+            android:layout_marginTop="20dp"
             android:textSize="33dp"
-            android:background="@drawable/rbtn"
+            android:background="@drawable/srin"
             android:id="@+id/one"
             />
         <Button
             android:layout_width="fill_parent"
             android:layout_height="60dp"
-            android:text="Anantnag"
+           android:layout_marginTop="20dp"
             android:id="@+id/two"
             android:textSize="33dp"
-            android:background="@drawable/rbtn"
+            android:background="@drawable/antttt"
             />
         <Button
             android:layout_width="fill_parent"
             android:layout_height="60dp"
-            android:text="Bandipora"
+           android:layout_marginTop="20dp"
             android:id="@+id/three"
             android:textSize="33dp"
-            android:background="@drawable/rbtn"
+            android:background="@drawable/bannnnnn"
             />
         <Button
             android:layout_width="fill_parent"
             android:layout_height="60dp"
             android:id="@+id/four"
-            android:text="baramula"
+           android:layout_marginTop="20dp"
             android:textSize="33dp"
-            android:background="@drawable/rbtn"
+            android:background="@drawable/barrrrrrr"
             />
         <Button
             android:layout_width="fill_parent"
             android:layout_height="60dp"
-            android:text="budgam"
+           android:layout_marginTop="20dp"
             android:id="@+id/five"
             android:textSize="33dp"
-            android:background="@drawable/rbtn"
+            android:background="@drawable/budddddd"
             />
         <Button
             android:layout_width="fill_parent"
             android:layout_height="60dp"
-            android:text="ganderbal"
+            android:layout_marginTop="20dp"
             android:id="@+id/six"
             android:textSize="33dp"
-            android:background="@drawable/rbtn"
+            android:background="@drawable/gannnnn"
             />
         <Button
             android:layout_width="fill_parent"
             android:layout_height="60dp"
-            android:text="kulgam"
+            android:layout_marginTop="20dp"
             android:id="@+id/seven"
             android:textSize="33dp"
-            android:background="@drawable/rbtn"
+            android:background="@drawable/kulllll"
             />
         <Button
             android:layout_width="fill_parent"
             android:layout_height="60dp"
-            android:text="Shopian"
+            android:layout_marginTop="20dp"
             android:textSize="33dp"
             android:id="@+id/eight"
-            android:background="@drawable/rbtn"
+            android:background="@drawable/shooooooooooo"
             />
     </LinearLayout>
 </ScrollView>

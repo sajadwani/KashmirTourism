@@ -1,24 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/woodbkg"
+
+
+
+    android:background="@drawable/spppp"
+    android:layout_marginTop="20dp"
+
 
     >
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></android.support.v7.widget.Toolbar>
+
+
+    <GridView
+        android:id="@+id/lst"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:horizontalSpacing="5dp"
+        android:numColumns="2"
+
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="5dp" />
 
     <ImageView
-        android:layout_width="fill_parent"
-        android:layout_height="60dp"
-        android:src="@drawable/chooseloc"
-        />
+       android:layout_width="wrap_content"
+       android:layout_height="250dp"
+       />
 
-    <ListView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/lst"
-        android:contextClickable="true"
-        >
+    <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="CHOOSE A LOCATION"
+       android:textSize="25dp"
+       android:layout_marginLeft="2dp"
+       android:layout_marginRight="2dp"
+       android:layout_gravity="center"/>
 
-    </ListView>
 
-</LinearLayout>
+
+</RelativeLayout>

@@ -1,31 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#a8a8a8"
     android:layout_height="match_parent">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         >
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="40dp"
-            android:text="BUNGUS VALLEY"
-            android:layout_gravity="center"
-            />
+
+
         <ImageView
-            android:layout_width="fill_parent"
-            android:layout_height="250dp"
+            android:layout_width="match_parent"
+            android:layout_height="235dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:src="@drawable/bang"
             />
         <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text=" One of the relatively unknown areas of Kashmir with vast tourism potential is the valley of Bangus. Lying within the Trans-Himalayan area, Bangus is a unique ecological combination comprising a mountain biome, which includes grassland biome with flora at lower altitudes; and Taiga or Coniferous forest. The valley which lies at an altitude of around 10,000 ft. above sea level is in the northern part
 of district Kupwara within the Handwara sub District. Occupying an estimated area of 300 sq.kms (20x15km) the principal valley locally known as Bodh Bangus (Big Bangus) consists of a linear elliptical bowl aligned along the east-west axis. "
-            android:textSize="25dp"
-            android:background="@drawable/bluebkg"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_horizontal"
             android:textColor="#ffffff"
 
 

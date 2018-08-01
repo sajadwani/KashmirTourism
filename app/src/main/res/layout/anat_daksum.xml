@@ -2,30 +2,33 @@
 
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#a8a8a8"
     android:layout_height="match_parent">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         >
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="40dp"
-            android:text="DAKSUM"
-            android:layout_gravity="center"
-            />
+
+
         <ImageView
-            android:layout_width="fill_parent"
-            android:layout_height="250dp"
+            android:layout_width="match_parent"
+            android:layout_height="235dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:src="@drawable/dak"
             />
         <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="350dp"
-            android:text="Daksum is Located in the dense forests, this scenic spot falls on the Anantnag-Symthan-Kishtwar road. It is a forest retreat girdled by mountains. The surrounding forests are famous for fauna and flora.This famous tourist sport is in the south east of Anantnag town and is about a distance of 40 kilometers from district headquarter."
-            android:textSize="25dp"
-            android:background="@drawable/bluebkg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daksum is Located in the dense forests, this scenic spot falls on the Anantnag-Symthan-Kishtwar road. It is a forest retreat girdled by mountains. The surrounding forests are famous for fauna and flora.This famous tourist sport is in the south east of Anantnag town and is about a distance of 40 kilometers from district headquarter.The place is famous and attractive due to an ancient spring surrounded by a garden terraced and developed by the Mughals.Perhaps the most beautiful of springs is Achabal, which gushes out of the Sosanwar hill.The upper portion of the garden is called 'Bag-e-Begum Abad' developed by Malika Noor Jehan Begum in 1620 AD and renowned as Sahib Abad."
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_horizontal"
+
+
             android:textColor="#ffffff"
 
 

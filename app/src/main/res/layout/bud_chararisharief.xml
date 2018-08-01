@@ -1,32 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:background="#a8a8a8"
+  android:layout_height="match_parent">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         >
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="40dp"
-            android:text="CHARARI SHARIEF"
-            android:layout_gravity="center"
-            />
+
         <ImageView
-            android:layout_width="fill_parent"
-            android:layout_height="250dp"
+            android:layout_width="match_parent"
+            android:layout_height="235dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:src="@drawable/cha"
             />
         <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Charar-i-Sharief is considered one of the most sacrosanct Muslim shrines in India. It is situated approximately 28 km from Srinagar, en route to Yusmarg. The Shrine of Charar-i-Sharief is approximately 600 years old. Popularly known as the Hazrat Sheikh Noor-ud-Din Wali.
 This historical town is famous for the tomb of Sheikh Noor-u-din Noorani, who preached Islam through his poetry. Every year Urs is celebrated at Charar-i-Sharief. Thousands of people from all faiths visit the shrine.
 "
-            android:textSize="25dp"
-            android:background="@drawable/bluebkg"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_horizontal"
             android:textColor="#ffffff"
 
 

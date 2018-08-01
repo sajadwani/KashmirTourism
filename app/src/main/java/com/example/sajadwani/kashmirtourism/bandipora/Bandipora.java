@@ -10,7 +10,9 @@ import android.view.animation.Animation;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ListView;
+import android.widget.ViewFlipper;
 
 import com.example.sajadwani.kashmirtourism.R;
 
@@ -19,9 +21,11 @@ import com.example.sajadwani.kashmirtourism.R;
  */
 
 public class Bandipora extends Activity {
+    ImageButton bu;
     Button showmap;
     int request_Code = 1;
     ViewPager viewPager;
+    ViewFlipper viewFlipper;
     BandiAdapter bandiAdapter;
     Animation Fade_in, Fade_out;
     ListView listView;
@@ -31,9 +35,20 @@ public class Bandipora extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.bandipora);
 
-        viewPager = (ViewPager) findViewById(R.id.viewpager);
-        bandiAdapter = new BandiAdapter(this);
-        viewPager.setAdapter(bandiAdapter);
+        bu=(ImageButton)findViewById(R.id.map2);
+        bu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String url="https://www.google.com/maps?daddr=bandipora";
+                Intent loc =new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+                startActivity(loc);
+
+            }
+        });
+
+       // viewPager = (ViewPager) findViewById(R.id.viewpager);
+       // bandiAdapter = new BandiAdapter(this);
+        //viewPager.setAdapter(bandiAdapter);
 
 
         listView = (ListView) findViewById(R.id.bandiporalist);
@@ -64,8 +79,13 @@ public class Bandipora extends Activity {
             }
         });
 
+        viewFlipper();
 
-
+    }
+    private void viewFlipper(){
+        ViewFlipper simple =(ViewFlipper) findViewById(R.id.flip2);
+        simple.setAutoStart(true);
+        simple.setFlipInterval(1500);
     }
 }
 

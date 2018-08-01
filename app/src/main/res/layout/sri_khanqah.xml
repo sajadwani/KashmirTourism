@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#a8a8a8"
     android:layout_height="match_parent">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         >
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="30dp"
-            android:text="KHANQAH SHAH HAMDAN"
-            android:layout_gravity="center"
-            />
+
         <ImageView
-            android:layout_width="fill_parent"
-            android:layout_height="250dp"
+            android:layout_width="match_parent"
+            android:layout_height="235dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:src="@drawable/khan"
             />
         <TextView
-            android:layout_width="fill_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text=" The Khanqah mosque, known as the Shah Hamdan Masjid, sits on the right bank of the river Jhelum between the third and fourth bridges. It was built in 1395 by Shah Sikandar to commemorate the visit of Mir Sayyid Ali Hamdani, better known as Shah Hamdan."
-            android:textSize="25dp"
-            android:background="@drawable/bluebkg"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_horizontal"
             android:textColor="#ffffff"
 
 

@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#a8a8a8"
     android:layout_height="match_parent">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         >
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="40dp"
-            android:text="ECO PARK"
-            android:layout_gravity="center"
-            />
+
         <ImageView
-            android:layout_width="fill_parent"
-            android:layout_height="250dp"
+            android:layout_width="match_parent"
+            android:layout_height="235dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:src="@drawable/ecoo"
             />
         <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Eco park has been set up in the middle of the River Jhelum and on the road connecting Baramulla town to Uri.Eco Park spans over a vast area and provides a mesmerizing view of the scenic surroundings.Baramulla Eco Park has been established by Jammu and Kashmir Tourism Development Corporation by amalgamating modern substructures with the natural beauty of the surrounding landscapes. Well maintained gardens and exquisite wooden huts form the major points of attraction of Baramulla Eco Park. Majestic mountains form the backdrop of this exquisite place.  "
-            android:textSize="25dp"
-            android:background="@drawable/bluebkg"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_horizontal"
             android:textColor="#ffffff"
             />
 

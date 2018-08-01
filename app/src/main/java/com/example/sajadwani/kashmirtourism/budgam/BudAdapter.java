@@ -14,7 +14,7 @@ import com.example.sajadwani.kashmirtourism.R;
  */
 
 public class BudAdapter extends PagerAdapter {
-    private int[] img={R.drawable.yus,R.drawable.doodh,R.drawable.tosa,R.drawable.tos};
+    private int[] img={R.drawable.pari,R.drawable.doodh,R.drawable.tosa,R.drawable.tos};
     private LayoutInflater inf;
     private Context ctx;
 

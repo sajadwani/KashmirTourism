@@ -1,37 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:id="@+id/content"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.sajadwani.kashmirtourism.MainActivity"
-    tools:showIn="@layout/app_bar_main">
+<?xml version="1.0" encoding="UTF-8"?>
 
-    <LinearLayout
-
-        android:orientation="vertical" android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:background="@drawable/groundbkg"
-        >
+    <LinearLayout tools:showIn="@layout/app_bar_main" tools:context="com.example.sajadwani.kashmirtourism.MainActivity" app:layout_behavior="@string/appbar_scrolling_view_behavior" android:id="@+id/content" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
 
 
-        <Button
-            android:layout_width="150dp"
-            android:layout_height="50dp"
-            android:textSize="25dp"
-            android:text="ENTER"
-            android:layout_marginTop="400dp"
-            android:layout_gravity="center"
-            android:id="@+id/b2"
-            android:background="@drawable/trbtn"
-            />
+    <LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:orientation="vertical" android:background="@drawable/spppp">
 
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="40dp" android:layout_marginTop="20dp" android:layout_gravity="center" android:id="@+id/t1" android:text="KASHMIR " android:textColor="#ffffff"/>
 
-    </LinearLayout>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="18dp" android:layout_marginTop="20dp" android:text="Kashmir valley is a popular tourist destination for domestic and foreign tourists. Among the popular tourist places in the valley are Gulmarg that has a ski resort, Dal Lake that has popular house boats, Pahalgam.Since travel and tourism in Kashmir is a thriving affair, there are many Kashmir tourism guide available online for reference. Also, you can check out some Kashmir tourism packages for planning a trip abroad in order to make the best out of your vacation.Tourism in the Kashmir valley has rebounded in recent years and in  the state became one of the top tourist destinations of India. Gulmarg, one of the most popular ski resort destinations in India, is also home to the world's highest green golf course."
+    android:textColor="#000000"/>
 
+    <ImageButton
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/f1"
+         android:src="@drawable/forward_black"
+         android:layout_marginTop="10dp"
+         android:layout_gravity="center"/>
+        </LinearLayout>
 </LinearLayout>
-
-
 

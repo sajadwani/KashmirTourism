@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#a8a8a8"
     android:layout_height="match_parent">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         >
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="40dp"
-            android:text="PEER KI GALI"
-            android:layout_gravity="center"
-            />
+
         <ImageView
-            android:layout_width="fill_parent"
-            android:layout_height="250dp"
+            android:layout_width="match_parent"
+            android:layout_height="235dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:src="@drawable/peer"
             />
         <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="The name ‘Peer ki Gali’ indicates: it has some auspicious relevance. As the word ‘peer’ means a person devoted to religion, as per Muslim faith. This holy place Peer ki Gali is situated between two villages, Poshana and Heer Pur, along Mughal road. Peer ki Gali is more likely to be called as heart of Mughal road. The history of this place dates back to the time of a holy and religiously elevated person named as Alamdaar-e-Kashmir, Sheikh Noor-u-Din Noorani (RA) (1378 to 1441).
 As per written records, this place got its name because of a converted Hindu saint, Sheikh Ahmed Karim. Barnier Francios, the man who visited this place along with the caravan of Mughal emperor Aurangzeb in 1665, wrote: “The saint was living here from the of Mughal king Jahangir. The saint could perform miracles by producing horrible voices. He could also bring storms along with hail stone and snow. He was an old white bearded man. He ordered the people not to create noise in this calm place of God, move silently, and also demand offerings from them.”
 ."
-            android:textSize="25dp"
-            android:background="@drawable/bluebkg"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_horizontal"
             android:textColor="#ffffff"
 
 

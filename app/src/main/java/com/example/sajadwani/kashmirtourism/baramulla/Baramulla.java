@@ -10,7 +10,9 @@ import android.view.animation.Animation;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ListView;
+import android.widget.ViewFlipper;
 
 import com.example.sajadwani.kashmirtourism.R;
 
@@ -19,6 +21,7 @@ import com.example.sajadwani.kashmirtourism.R;
  */
 
 public class Baramulla extends Activity {
+    ImageButton bu;
     Button showmap;
     int request_Code = 1;
     ViewPager viewPager;
@@ -31,9 +34,20 @@ public class Baramulla extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.baramulla);
 
-        viewPager = (ViewPager) findViewById(R.id.viewpager);
-        baraAdapter = new BaraAdapter(this);
-        viewPager.setAdapter(baraAdapter);
+        bu=(ImageButton)findViewById(R.id.map4);
+        bu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String url="https://www.google.com/maps?daddr=baramulla";
+                Intent loc =new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+                startActivity(loc);
+
+            }
+        });
+
+      //  viewPager = (ViewPager) findViewById(R.id.viewpager);
+        //baraAdapter = new BaraAdapter(this);
+       // viewPager.setAdapter(baraAdapter);
 
         listView = (ListView) findViewById(R.id.baramullalist);
         String[] value = new String[]{"1.BABA RESHI SHRINE", "2.ECO PARK", "3.GULMARG", "4.MAHARANI TEMPLE", "5.TANGMARG"};
@@ -73,6 +87,11 @@ public class Baramulla extends Activity {
         });
 
 
-
+        viewFlipper();
+    }
+    private void viewFlipper(){
+        ViewFlipper simple =(ViewFlipper) findViewById(R.id.flip3);
+        simple.setAutoStart(true);
+        simple.setFlipInterval(1500);
     }
 }

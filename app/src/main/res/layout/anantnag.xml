@@ -5,35 +5,76 @@
     android:background="#000000"
     >
 
-
-
-
-    <android.support.v4.view.ViewPager
+   <!-- <android.support.v4.view.ViewPager
         android:layout_width="fill_parent"
         android:layout_height="235dp"
         android:id="@+id/viewpager"
 
-        />
+        />-->
+    <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:id="@+id/flip1">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="235dp"
+            android:id="@+id/img"
+            android:scaleType="fitXY"
+            android:padding="40dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/anat"/>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="235dp"
+            android:id="@+id/img1"
+            android:scaleType="fitXY"
+            android:padding="40dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/pah"/>
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="235dp"
+            android:id="@+id/myimg2"
+            android:scaleType="fitXY"
+            android:padding="40dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/mat"/>
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="235dp"
+            android:id="@+id/myimg3"
+            android:scaleType="fitXY"
+            android:padding="40dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/kok"/>
+
+
+
+    </ViewFlipper>
+
+
+
+
 
     <LinearLayout
 
-        android:orientation="vertical" android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/grassbkg"
+        android:background="#a8a8a8"
         >
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="While on a trip to Anantnag, tourists can visit the Martand Sun Temple that is located at a distance of 9 km from the destination. This temple was constructed by King Lalitaditya in honour of Lord Sun. The architecture of the temple depicts the artistic excellence of the Kashmiri Hindus. At present, the Martand Sun temple is in ruined state nevertheless, tourist can sight the remains of the temple standing amidst the snow capped mountains." />
 
 
-        <TextView
+
+        <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20dp"
-            android:text="Move the images above to see the palaces in anatnag.Palace to Travel in Anantnag."
-            android:textColor="#000"
-            />
+            android:layout_marginLeft="280dp"
+            android:id="@+id/map1"
+            android:src="@drawable/ic_place_black_24dp"/>
 
         <ListView
             android:layout_width="wrap_content"

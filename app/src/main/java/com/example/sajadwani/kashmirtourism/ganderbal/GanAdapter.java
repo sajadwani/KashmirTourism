@@ -14,7 +14,7 @@ import com.example.sajadwani.kashmirtourism.R;
  */
 
 public class GanAdapter extends PagerAdapter {
-    private int[] img={R.drawable.sona, R.drawable.man, R.drawable.gang, R.drawable.gan};
+    private int[] img={R.drawable.hari, R.drawable.man, R.drawable.gang, R.drawable.gan};
     private LayoutInflater inf;
     private Context ctx;
 

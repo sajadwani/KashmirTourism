@@ -2,30 +2,32 @@
 
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#a8a8a8"
     android:layout_height="match_parent">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         >
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="40dp"
-            android:text="KOKERNAG"
-            android:layout_gravity="center"
-            />
+
         <ImageView
-            android:layout_width="fill_parent"
-            android:layout_height="250dp"
+            android:layout_width="match_parent"
+            android:layout_height="235dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:src="@drawable/kok"
             />
         <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="650dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Kokernag is famous for its trout streams and the largest fresh water spring . Kokernag is eight miles form Achabal . Kokernag is the largest fresh water spring of Kashmir and its water has many curative and digestive properties. The word Kokernag has been derived from the two words namely, Koker and Nag. The word Koker has been taken from a Kashmiri word Morgee meaning chicken, while the word nag has been taken from Sanskrit word Nag meaning snake. Regarding the name of Kokernag, there are different versions. "
-            android:textSize="25dp"
-            android:background="@drawable/bluebkg"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_horizontal"
+
+
             android:textColor="#ffffff"
 
 

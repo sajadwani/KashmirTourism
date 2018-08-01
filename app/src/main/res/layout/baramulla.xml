@@ -4,26 +4,78 @@
     android:layout_height="match_parent"
     android:background="#000000"
     >
-    <android.support.v4.view.ViewPager
+   <!-- <android.support.v4.view.ViewPager
         android:layout_width="fill_parent"
         android:layout_height="235dp"
-        android:id="@+id/viewpager"
+        android:id="@+id/viewpager"-->
 
-        />
+
     <LinearLayout
 
         android:orientation="vertical" android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/grassbkg"
+        android:background="#a8a8a8"
         >
 
-        <TextView
+        <ViewFlipper
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:id="@+id/flip3">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="235dp"
+                android:id="@+id/imga"
+                android:scaleType="fitXY"
+                android:padding="40dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/gul"/>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="235dp"
+                android:id="@+id/imga1"
+                android:scaleType="fitXY"
+                android:padding="40dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/gulm"/>
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="235dp"
+                android:id="@+id/myimga2"
+                android:scaleType="fitXY"
+                android:padding="40dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/eco"/>
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="235dp"
+                android:id="@+id/myimga3"
+                android:scaleType="fitXY"
+                android:padding="40dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/tang"/>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="235dp"
+                android:id="@+id/myimga4"
+                android:scaleType="fitXY"
+                android:padding="40dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/maha"/>
+
+
+
+        </ViewFlipper>
+
+        <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20dp"
-            android:text="Move the images above to see the palaces in Baramulla.Palace to Travel in Baramulla."
-            android:textColor="#000"
-            />
+            android:layout_marginLeft="280dp"
+            android:id="@+id/map4"
+            android:src="@drawable/ic_place_black_24dp"/>
 
         <ListView
             android:layout_width="wrap_content"

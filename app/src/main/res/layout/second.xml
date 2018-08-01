@@ -2,79 +2,31 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/woodbkg"
+    android:background="@drawable/seeeeeeeeeeeeeeeeee"
     android:orientation="vertical"
     >
-    <TextView
-        android:layout_width="229dp"
-        android:layout_height="52dp"
-        android:text="   KASHMIR"
-        android:textStyle="italic"
-        android:textSize="40dp"
-        android:background="@drawable/txtbkg"
-        android:layout_gravity="center"
-        />
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:background="#ffffff"
-        android:textSize="4dp"
-        />
-    <ImageView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/editpic"
-        android:layout_marginTop="10dp"
-        />
 
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:background="#ffffff"
-        android:textSize="4dp"
-        android:layout_marginTop="5dp"
-        />
-    <TextView
+   <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="
-Kashmir tourism has boomed in recent years among globetrotters, thanks to its famous places of interest. Since travel and tourism in Kashmir is a thriving affair, there are many Kashmir tourism guide available online for reference. Also, you can check out some Kashmir tourism packages for planning a trip abroad in order to make the best out of your vacation"
-        android:background="#c0c0c0"
-        android:textColor="#000000"
         android:layout_marginLeft="5dp"
+
         android:layout_marginRight="5dp"
-        android:layout_marginTop="10dp"
-        android:textSize="15dp"
-        />
 
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:background="#ffffff"
-        android:textSize="4dp"
-        android:layout_marginTop="10dp"
-        />
+       android:layout_marginTop="20dp"
+        android:text="
+Kashmir valley is a popular tourist destination for domestic and foreign tourists. Among the popular tourist places in the valley are Gulmarg that has a ski resort, Dal Lake that has popular house boats, Pahalgam.Since travel and tourism in Kashmir is a thriving affair, there are many Kashmir tourism guide available online for reference. Also, you can check out some Kashmir tourism packages for planning a trip abroad in order to make the best out of your vacation.Tourism in the Kashmir valley has rebounded in recent years and in  the state became one of the top tourist destinations of India. Gulmarg, one of the most popular ski resort destinations in India, is also home to the world's highest green golf course."
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
 
-    <ImageView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/btntext"/>
 
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:background="#ffffff"
-        android:textSize="4dp"
-        android:layout_marginTop="10dp"
-        />
     <LinearLayout
         android:layout_height="match_parent"
         android:layout_width="match_parent"
         android:orientation="horizontal"
 
         >
-
-        <Button
+        <!--  <Button
             android:id="@+id/cat"
             android:layout_width="150dp"
             android:layout_height="50dp"
@@ -84,24 +36,30 @@ Kashmir tourism has boomed in recent years among globetrotters, thanks to its fa
             android:text="CATEGORY"
             android:textSize="25dp"
 
-            />
-        <TextView
-            android:layout_width="4dp"
-            android:layout_height="fill_parent"
-            android:background="#ffffff"
-            android:textSize="4dp"
-            android:layout_marginLeft="30dp"
+            /> -->
+     <!--<Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/h1"
 
 
-            />
+         android:layout_marginTop="300dp"
+         android:layout_gravity="fill_horizontal"
+         android:background="@drawable/hotel_black"
+         />-->
+
+
+
+
 
         <Button
             android:layout_width="150dp"
             android:layout_height="50dp"
             android:textSize="25dp"
-            android:text="ALL"
+            android:text="OK"
+
             android:layout_marginTop="45dp"
-            android:layout_marginLeft="20dp"
+          android:layout_marginLeft="100dp"
             android:id="@+id/all"
             android:background="@drawable/trbtn"
             />

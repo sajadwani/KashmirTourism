@@ -1,42 +1,27 @@
 package com.example.sajadwani.kashmirtourism.anantnag;
 
 import android.app.Activity;
-import android.app.Fragment;
 import android.content.Intent;
-import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
 import android.view.View;
 import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.ViewFlipper;
 
-import com.example.sajadwani.kashmirtourism.MainActivity;
 import com.example.sajadwani.kashmirtourism.R;
-import com.example.sajadwani.kashmirtourism.Second;
-import com.google.android.gms.maps.CameraUpdate;
-import com.google.android.gms.maps.CameraUpdateFactory;
-import com.google.android.gms.maps.GoogleMap;
-import com.google.android.gms.maps.MapFragment;
-import com.google.android.gms.maps.OnMapReadyCallback;
-import com.google.android.gms.maps.SupportMapFragment;
-import com.google.android.gms.maps.model.BitmapDescriptorFactory;
-import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.Marker;
-import com.google.android.gms.maps.model.MarkerOptions;
 
 /**
  * Created by SAJAD WANI on 4/23/2017.
  */
 
 public class Anantnag extends Activity {
-
+    ImageButton bu;
     Button showmap;
     int request_Code = 1;
     ViewPager viewPager;
@@ -50,10 +35,21 @@ public class Anantnag extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.anantnag);
 
+        bu = (ImageButton) findViewById(R.id.map1);
+        bu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String url = "https://www.google.com/maps?daddr=anantnag";
+                Intent loc = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+                startActivity(loc);
 
-        viewPager = (ViewPager) findViewById(R.id.viewpager);
-        anantAdapter = new AnantAdapter(this);
-        viewPager.setAdapter(anantAdapter);
+            }
+        });
+
+
+        // viewPager = (ViewPager) findViewById(R.id.viewpager);
+        //anantAdapter = new AnantAdapter(this);
+        //viewPager.setAdapter(anantAdapter);
 
 
         listView = (ListView) findViewById(R.id.anantnaglist);
@@ -91,7 +87,17 @@ public class Anantnag extends Activity {
                 }
             }
         });
+        viewFlipper();
 
 
     }
-}
+
+   private void viewFlipper(){
+        ViewFlipper  simple =(ViewFlipper) findViewById(R.id.flip1);
+           simple.setAutoStart(true);
+           simple.setFlipInterval(1500);
+       }
+   }
+
+
+

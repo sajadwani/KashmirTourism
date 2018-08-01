@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#a8a8a8"
     android:layout_height="match_parent">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         >
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="40dp"
-            android:text="CHASHME SHAHI"
-            android:layout_gravity="center"
-            />
+
         <ImageView
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="235dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:src="@drawable/cheshmi"
             />
         <TextView
-            android:layout_width="fill_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=" Chashme Shahi is the smallest of the three Mughal Gardens in Srinagar but not less beautiful or charming. Chasme Shahi is literally translated as ‘Royal Spring’. The cool natural spring and fresh water gushing out from the mountain is a pure joy to be hold. "
-            android:textSize="25dp"
-            android:background="@drawable/bluebkg"
+            android:text=" Chashme Shahi is the smallest of the three Mughal Gardens in Srinagar but not less beautiful or charming. Chasme Shahi is literally translated as ‘Royal Spring’. The cool natural spring and fresh water gushing out from the mountain is a pure joy to be hold.Shalimar Bagh is around 16 km from Srinagar. It was built in 1619 by Mughal Emperor Jahangir to please his wife Nur Jahan. He fondly called the garden ‘Farah Baksh. "
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_horizontal"
             android:textColor="#ffffff"
 
 
